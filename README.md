@@ -71,7 +71,17 @@
 
 To get a local copy up and running, follow these steps.
 
-### Install
+### Prerequisites:
+
+In order to run this project you need to run:
+```npm install```
+
+### Setup:
+
+Clone this repository to your desired folder:
+
+- ```cd math-magicians```
+- git clone https://github.com/MostafaShahat2021/mathmagicians
 
 Install this project with:
 1. Installed Git.
