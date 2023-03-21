@@ -1,5 +1,6 @@
 import './App.css';
-import CalcContainer from './components/Calculator';
+// eslint-disable-next-line import/extensions
+import CalcContainer from './components/Calculator.js';
 
 function App() {
   return (
