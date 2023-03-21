@@ -11,11 +11,4 @@ function CalcContainer() {
   );
 }
 
-// const CalcContainer = () => (
-//   <div className="calcContainer">
-//     <Display />
-//     <BtnContainer />
-//   </div>
-// );
-
 export default CalcContainer;
