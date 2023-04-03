@@ -1,5 +1,5 @@
 .calcContainer {
-  margin-top: 10rem;
+  margin-top: 3rem;
   width: 40%;
 }
 
@@ -14,12 +14,11 @@
 }
 
 .cont h5 {
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 2rem;
 }
 
 .home-cont {
-  /* border: 1px solid red; */
-  margin: 4rem auto;
-  padding: 2rem;
+  margin: 0 auto;
+  padding: 1rem;
 }

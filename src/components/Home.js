@@ -2,8 +2,7 @@ function Home() {
   return (
     <div className="home-cont">
       <div className="cont">
-        <h1>Math Magicians</h1>
-        <h5>Let&apos;s do some math!</h5>
+        <h5>Welcome to our page</h5>
       </div>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eum fuga animi quas! Ips
