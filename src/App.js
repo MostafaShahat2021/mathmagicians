@@ -1,13 +1,23 @@
+import {
+  BrowserRouter as Router, Routes, Route,
+} from 'react-router-dom';
 import './App.css';
 import CalcContainer from './components/calculator';
 import Quote from './components/quote';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="app">
-      <Quote />
-      <CalcContainer />
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/calculator" element={<CalcContainer />} />
+        <Route path="/quote" element={<Quote />} />
+        <Route path="*" element={<h2>Page Not Found</h2>} />
+      </Routes>
+    </Router>
   );
 }
 
