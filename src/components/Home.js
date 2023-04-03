@@ -1,8 +1,10 @@
 function Home() {
   return (
-    <>
-      <h2>Math Magicians</h2>
-      <h5>Welcome to our page!</h5>
+    <div className="home-cont">
+      <div className="cont">
+        <h1>Math Magicians</h1>
+        <h5>Let&apos;s do some math!</h5>
+      </div>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eum fuga animi quas! Ips
         illo iusto voluptate error pariatur cumque earum neque quo suscipit, sit dicta accu
@@ -10,6 +12,7 @@ function Home() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eum fuga animi quas! Ips
         illo iusto voluptate error pariatur cumque earum neque quo suscipit,
       </p>
+      <br />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eum fuga animi quas! Ips
         illo iusto voluptate error pariatur cumque earum neque quo suscipit, sit dicta accu
@@ -17,7 +20,7 @@ function Home() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis eum fuga animi quas! Ips
         illo iusto voluptate error pariatur cumque earum neque quo suscipit,
       </p>
-    </>
+    </div>
   );
 }
 export default Home;

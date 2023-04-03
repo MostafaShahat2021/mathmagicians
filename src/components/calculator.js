@@ -24,9 +24,15 @@ function CalcContainer() {
     }
   };
   return (
-    <div className="calcContainer">
-      <Display result={res} />
-      <BtnContainer handelClick={handelClick} />
+    <div className="container">
+      <div className="cont">
+        <h1>Math Magicians</h1>
+        <h5>Let&apos;s do some math!</h5>
+      </div>
+      <div className="calcContainer">
+        <Display result={res} />
+        <BtnContainer handelClick={handelClick} />
+      </div>
     </div>
   );
 }
