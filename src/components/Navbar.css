@@ -5,7 +5,6 @@ nav {
 }
 
 nav a {
-  margin-right: 1rem;
   text-decoration: none;
   color: #000;
   border-right: 1px solid #000;
@@ -14,7 +13,6 @@ nav a {
 }
 
 nav a.active {
-  text-decoration: none;
   font-weight: bold;
   color: rgb(81, 178, 182);
   border-right: 1px solid black;
